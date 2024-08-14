@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/contactapplication
+    username: root
+    password: root
+  #  ===============docker===================
+  #    url: jdbc:mysql://mysqldb:3306/contactapplication
+  #    username: sa
+  #    password: 1234
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+  mvc:
+    throw-exception-if-no-handler-found: true
+    async:
+      request-timeout: 3600000
+server:
+  port: 8080
+  error:
+    path: user/error
+    whitelabel:
+      enabled: false
+  servlet:
+    context-path: /api/v1
