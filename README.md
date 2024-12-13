@@ -27,3 +27,17 @@ ContactPro is a full-stack contact management application designed to efficientl
 - **Hosted on AWS for High Availability and Performance**
   - The application is hosted on AWS, leveraging its high-performance infrastructure and scalability. This ensures the app can handle increasing user traffic without compromising availability or performance.
 
+## Technologies Used
+
+### Backend
+- **Spring Boot 3**: A powerful framework for building Java-based web applications, providing an easy-to-use and production-ready environment for development.
+- **JPA (Java Persistence API)**: Used for managing relational data in Java applications, making it easier to interact with databases.
+- **Spring Security 6**: A comprehensive and customizable authentication and access control framework, ensuring secure access to the application.
+- **JWT (JSON Web Token)**: A secure method for transmitting information between the client and server in a compact, URL-safe format for authentication.
+- **MySQL**: A reliable and widely-used relational database management system used to store and manage contact data.
+
+### Frontend
+- **ReactJS**: A JavaScript library for building dynamic and responsive user interfaces, providing a fast and scalable solution for frontend development.
+- **React Router**: A standard library for routing in React, enabling navigation between different views and components in the app.
+- **React Redux**: A state management tool for React, providing a centralized store to manage the app’s state and facilitate efficient data handling.
+- **Tailwind CSS**: A utility-first CSS framework for rapidly building custom designs, allowing for easy customization and responsive layouts.
