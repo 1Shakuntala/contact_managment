@@ -7,10 +7,23 @@
 # Overview
 ContactPro is a full-stack contact management application designed to efficiently manage and organize your contacts. The application is built with modern technologies including Spring Boot, JPA, Spring Security, JWT, MySQL, ReactJS, React Router, React Redux, Tailwind CSS, Docker, and deployed on AWS.
 
-# Features
-Secure user authentication using JWT
-RESTful API for contact management
-Responsive and interactive user interface
-Seamless navigation and efficient state management
-Containerized deployment for scalability
-Hosted on AWS for high availability and performance
+## Features
+
+- **Secure User Authentication using JWT**
+  - Implemented user authentication with JWT to ensure secure login and access to the application. This prevents unauthorized access by verifying the user's identity.
+
+- **RESTful API for Contact Management**
+  - The backend provides a RESTful API for managing contacts. It allows users to perform CRUD operations (Create, Read, Update, Delete) on their contact list efficiently.
+
+- **Responsive and Interactive User Interface**
+  - The front-end is built with ReactJS and is fully responsive, ensuring a seamless experience on both desktop and mobile devices. Interactive UI components provide an engaging user experience.
+
+- **Seamless Navigation and Efficient State Management**
+  - React Router is used for navigation between different sections of the application. React Redux is implemented for efficient state management, ensuring smooth transitions and performance.
+
+- **Containerized Deployment for Scalability**
+  - The application is containerized using Docker, making it easy to deploy and scale the application. Docker containers ensure that the app runs consistently across different environments.
+
+- **Hosted on AWS for High Availability and Performance**
+  - The application is hosted on AWS, leveraging its high-performance infrastructure and scalability. This ensures the app can handle increasing user traffic without compromising availability or performance.
+
